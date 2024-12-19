@@ -1,34 +1,67 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container{
     background-color:#d9d9d9 ;
-    border: solid 2px black;               /*burasi silinecek*/
     display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
     justify-content: center;
     align-items: center;
     width: 28.75rem;
     height: 44.625rem;
+    border-radius: 3.375rem;
+    border: 3px solid #210A0A;
 }
 
 .outputScreen{
-
+    background-color: #210A0A;
+    width: 25rem;
+    height: 13.875rem;
+    border-radius: 1.5rem;
 }
 
 .buttonContainer{
-    position: relative;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background: green;
-    width: 50vw;
-    height: 50vw;
-
+    background: #210A0A;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content:space-around;
 
 }
 
 .buttonContainer > div{
-    background-color: red;
-    width: 10px;
-    height: 10px;
-    padding: 1.125rem;
+    background-color: #382626;
+    width: 66px;
+    height: 66px;
     text-align: center;
+    border-radius: 1.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D9D9D9;
+}
+
+.buttonContainer > div:is(.button4, .button8, .button12, .button13, .button15, .button16) {   /*------------Operation Buttons------------*/
+    background-color: #38262630;
+    border-radius: .3125rem;
+}
+
+.inner{
+    background-color: #382626;
+    width: 3.125rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .0313rem solid #544343;
+    border-radius: .1875rem;
 }
 
 .button1{
@@ -48,7 +81,7 @@
 }
 
 .button5{
-
+    background-color: red;
 }
 
 .button6{
