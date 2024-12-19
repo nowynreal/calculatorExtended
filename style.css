@@ -1,0 +1,36 @@
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.greenbg{
+    position: relative;
+    background: green;
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+.redbox{
+    background-color: red;
+    width: 15vw;
+    height: 15vw;
+}
+
+.bluebox{
+    background-color: blue;
+    width: 15vw;
+    height: 15vw;
+}
+
+.blackbox{
+    background-color: black;
+    width: 15vw;
+    height: 15vw;
+}
