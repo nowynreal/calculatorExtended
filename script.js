@@ -16,18 +16,13 @@ function clearing(){
 }
 
 function calculate(){
-
-    if(screen.value === "Error"){         //    Error = Error
-        try {
-            screen.value = eval(screen.value);
-        }
-        catch(error) {
-            screen.value = "Error";
-        }
-    }
     
+    if(screen.value === "Error") {
+        return;
+    }
+
     try {
-        screen.value = eval(screen.value);
+        screen.value = math.evaluate(screen.value);
     }
     catch(error) {
         screen.value = "Error";
