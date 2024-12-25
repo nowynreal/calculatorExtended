@@ -68,6 +68,15 @@ body{
     font-size: 1.8rem;
 }
 
+button:hover{
+    background-color: #38262680;
+}
+
+button:active{
+    background-color: #38262650;
+    border: 2px solid black;
+}
+
 
 .buttonContainer > .operation{
     background-color: #38262630;
